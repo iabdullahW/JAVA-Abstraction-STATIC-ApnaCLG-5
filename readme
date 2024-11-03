@@ -1,32 +1,32 @@
-###Java OOP Concepts: Abstraction, Interfaces, and Static Keyword
+# Java OOP Concepts: Abstraction, Interfaces, and Static Keyword
 
-##Overview
+## Overview
 
-This project demonstrates key object-oriented programming concepts in Java, including:
-1. **Abstraction**: Creating abstract classes and methods to outline a basic blueprint without full implementation.
-2. **Interfaces**: Implementing interfaces for defining a contract that a class must adhere to, including multiple inheritance.
-3. **Static Keyword**: Using static fields and methods to define properties and behaviors common to all instances of a class.
+This project demonstrates foundational Object-Oriented Programming (OOP) principles in Java, including:
+1. **Abstraction**: Leveraging abstract classes and methods to define a template for subclasses.
+2. **Interfaces**: Implementing interfaces to establish a contract that classes must follow, supporting multiple inheritance.
+3. **Static Keyword**: Utilizing static fields and methods to define properties and behaviors that are shared across all instances of a class.
 
-Each concept is illustrated through code examples, explained in detail below.
+Each concept is showcased through code examples, detailed below.
 
-##Concepts and Code Files
+## Concepts and Code Files
 
-###1. Abstraction
+### 1. Abstraction
 
-**Abstraction** is a process where only essential details are shown to the user, while non-essential details are hidden. It allows us to create a blueprint or "abstract" class that cannot be instantiated directly. Instead, this class can be extended by subclasses that implement its abstract methods.
+**Abstraction** is a principle where only essential details are exposed to the user, hiding the complexity behind the scenes. Abstract classes provide a blueprint that cannot be instantiated directly; instead, subclasses extend the abstract class and implement its methods.
 
-**Key Points**:
-- Abstract classes and methods are defined using the `abstract` keyword.
-- Abstract methods do not have a body (i.e., they lack `{}`) and must be implemented by subclasses.
+- **Key Points**:
+  - Abstract classes and methods are defined using the `abstract` keyword.
+  - Abstract methods have no body (`{}`) and must be implemented by subclasses.
 
-**Code**: `Abstraction.java`
+- **Code File**: `Abstraction.java`
 
 - **Example Classes**:
-  - `Animal` (abstract class) with an abstract method `walk()` and a regular method `eat()`.
-  - `Horse` and `Chicken` classes that extend `Animal` and provide implementation for `walk()`.
+  - `Animal` (abstract class) with an abstract method `walk()` and a concrete method `eat()`.
+  - `Horse` and `Chicken` classes that extend `Animal` and provide an implementation for `walk()`.
 
-**Usage**:
-To run this example, compile and run `Abstraction.java`:
-```bash
-javac Abstraction.java
-java Abstraction
+- **How to Run**:
+  Compile and run the example as follows:
+  ```bash
+  javac Abstraction.java
+  java Abstraction
