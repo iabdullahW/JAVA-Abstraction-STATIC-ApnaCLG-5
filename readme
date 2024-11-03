@@ -1,0 +1,32 @@
+# Java OOP Concepts: Abstraction, Interfaces, and Static Keyword
+
+## Overview
+
+This project demonstrates key object-oriented programming concepts in Java, including:
+1. **Abstraction**: Creating abstract classes and methods to outline a basic blueprint without full implementation.
+2. **Interfaces**: Implementing interfaces for defining a contract that a class must adhere to, including multiple inheritance.
+3. **Static Keyword**: Using static fields and methods to define properties and behaviors common to all instances of a class.
+
+Each concept is illustrated through code examples, explained in detail below.
+
+## Concepts and Code Files
+
+### 1. Abstraction
+
+**Abstraction** is a process where only essential details are shown to the user, while non-essential details are hidden. It allows us to create a blueprint or "abstract" class that cannot be instantiated directly. Instead, this class can be extended by subclasses that implement its abstract methods.
+
+**Key Points**:
+- Abstract classes and methods are defined using the `abstract` keyword.
+- Abstract methods do not have a body (i.e., they lack `{}`) and must be implemented by subclasses.
+
+**Code**: `Abstraction.java`
+
+- **Example Classes**:
+  - `Animal` (abstract class) with an abstract method `walk()` and a regular method `eat()`.
+  - `Horse` and `Chicken` classes that extend `Animal` and provide implementation for `walk()`.
+
+**Usage**:
+To run this example, compile and run `Abstraction.java`:
+```bash
+javac Abstraction.java
+java Abstraction
