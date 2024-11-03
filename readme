@@ -1,6 +1,6 @@
-# Java OOP Concepts: Abstraction, Interfaces, and Static Keyword
+###Java OOP Concepts: Abstraction, Interfaces, and Static Keyword
 
-## Overview
+##Overview
 
 This project demonstrates key object-oriented programming concepts in Java, including:
 1. **Abstraction**: Creating abstract classes and methods to outline a basic blueprint without full implementation.
@@ -9,9 +9,9 @@ This project demonstrates key object-oriented programming concepts in Java, incl
 
 Each concept is illustrated through code examples, explained in detail below.
 
-## Concepts and Code Files
+##Concepts and Code Files
 
-### 1. Abstraction
+###1. Abstraction
 
 **Abstraction** is a process where only essential details are shown to the user, while non-essential details are hidden. It allows us to create a blueprint or "abstract" class that cannot be instantiated directly. Instead, this class can be extended by subclasses that implement its abstract methods.
 
